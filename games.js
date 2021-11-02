@@ -212,7 +212,7 @@ function isHit(defender, offender) {
     lastStingTime = newStingTime;
     let longestDuration = Number(duration.innerHTML);
     if (longestDuration === 0) {
-      longestDuration = thisDuration;
+      longestDuration =thisDuration;
     } else {
       if (longestDuration < thisDuration) longestDuration = thisDuration;
       document.getElementById("duration").innerHTML = longestDuration;
