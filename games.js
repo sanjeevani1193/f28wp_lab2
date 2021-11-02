@@ -212,13 +212,13 @@ function isHit(defender, offender) {
     lastStingTime = newStingTime;
     let longestDuration = Number(duration.innerHTML);
     if (longestDuration === 0) {
-      longestDuration =thisDuration;
+      longestDuration = thisDuration;
     } else {
-      if (longestDuration < thisDuration) longestDuration = thisDuration;
+      if (longestDuration < thisDuration) longestDuration = thisDuration;}
       document.getElementById("duration").innerHTML = longestDuration;
     }
   }
-}
+
 
 function overlap(element1, element2) {
   //consider the two rectangles wrapping the two elements //rectangle of the first element
